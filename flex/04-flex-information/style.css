@@ -10,6 +10,10 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /*Edits added here */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +27,20 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* Edits added here */
+.plants {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.text {
+  flex-wrap: wrap;
+  
+}
+.type1, .type2, .type3, .type4 {
+  width: 200px;
+  text-align: center;
 }
